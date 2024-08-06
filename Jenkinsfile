@@ -52,7 +52,7 @@ pipeline {
             steps {
                 script {
                     rhtap.info('cosign_sign_attest')
-                    rhtap.cosign_sign_attest()
+                    //rhtap.cosign_sign_attest()
                 }
             }
         }
