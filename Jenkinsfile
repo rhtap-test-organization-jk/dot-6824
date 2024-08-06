@@ -1,6 +1,6 @@
 library identifier: 'RHTAP_Jenkins@main', retriever: modernSCM(
   [$class: 'GitSCMSource',
-   remote: 'https://github.com/rhtap-test-organization-jk/tssc-sample-jenkins.git'])
+   remote: 'https://github.com/jkopriva/tssc-sample-jenkins.git'])
 
 
 pipeline {
